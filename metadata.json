@@ -1,0 +1,6 @@
+{
+  "name": "منصة وفرة | Wafra",
+  "description": "منصة مصرية لإنقاذ فائض الطعام، وتوفير الوجبات بخصومات تصل إلى 70% وحماية البيئة",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-cairo {
+    font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+  }
+  .font-tajawal {
+    font-family: 'Tajawal', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom Rescue Stamp styling matching the app screenshot */
+.rescue-stamp {
+  border: 2.5px dashed #b92b27;
+  border-radius: 8px;
+  color: #b92b27;
+  transform: rotate(-7deg);
+  background-color: rgba(254, 242, 242, 0.95);
+  box-shadow: 0 2px 4px rgba(185, 43, 39, 0.15);
+  letter-spacing: 0.5px;
+}
+
+/* Custom dashed circle badge for hero */
+.hero-stamp {
+  border: 2.5px dashed #144e3f;
+  border-radius: 9999px;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 4px 12px rgba(20, 78, 63, 0.08);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ebd9;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5ba9d;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #144e3f;
+}
